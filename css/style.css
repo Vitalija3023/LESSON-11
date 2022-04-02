@@ -20,8 +20,8 @@ body{
 
 .who-we-are__container{
    max-width: 1020px;
-   margin: 0 auto;
-   padding: 100px 0 0 0;
+   margin: 100px auto 0;
+   
    
 
    
@@ -34,16 +34,22 @@ body{
    position: relative;
    top: 0;
    left: 0;
+   padding: 100px 87px 0;
    
 }
 
 
 
- 
+.who-we-are__decor{
+   position: absolute;
+   top: -110px;
+   right: -77px;
+
+}
 
 
 .who-we-are__header-block {
-  padding: 100px 350px 0 87px;
+  
 }
 
 .header-block {
@@ -96,25 +102,20 @@ color:#FFFFFF;
    line-height: 1.5;
    letter-spacing: 0.15px;
    color:#FFFFFF;
-   max-width: 846px;
-   margin: 0 auto;
+   
+   
 }
 
 
 
-.who-we-are__decor{
-   position: absolute;
-   top: 55px;
-   right: 134px;
 
-}
 
 .who-we-are__blob{
    display: inline-block;
   position: relative;
   z-index: 3;
   bottom:90px;
-  left: 0px;
+  left: -100px;
   width: 550px;
   height: 370px;
   
@@ -124,10 +125,11 @@ color:#FFFFFF;
 
 
 .who-we-are__dog{
+   display: inline-block;
    position: relative;
    z-index: 3;
    bottom: 320px;
-   left: 300px;
+   left: 87px;
    border-radius: 40px;
    overflow: hidden;
    width: 846px;
@@ -135,6 +137,6 @@ color:#FFFFFF;
    background: url('../img/dog-2.png') 0 0 / 846px auto no-repeat;
    box-shadow: 0px 16px 24px 0px #26262633;
 
-box-shadow: 0px 8px 16px 0px #2626263D;
+   box-shadow: 0px 8px 16px 0px #2626263D;
 
 }
