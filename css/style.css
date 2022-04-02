@@ -1,0 +1,140 @@
+@import url('null.css');
+body{
+   font-family:"Roboto";
+   font-weight: 400;
+}
+.wrapper{
+   min-height: 100%;
+   overflow: hidden;
+}
+
+
+
+.header{
+   text-align: center;
+   font-size: 24px;
+   font-weight: 700;
+   padding: 20px;
+
+}
+
+.who-we-are__container{
+   max-width: 1020px;
+   margin: 0 auto;
+   padding: 100px 0 0 0;
+   
+
+   
+}
+
+.who-we-are__content-box{
+   background: #5D62B5;
+   border-radius: 40px;
+   min-height:700px;
+   position: relative;
+   top: 0;
+   left: 0;
+   
+}
+
+
+
+ 
+
+
+.who-we-are__header-block {
+  padding: 100px 350px 0 87px;
+}
+
+.header-block {
+  
+ 
+   
+}
+
+.header-block__sub-title {
+   margin: 0 0 33px 0;
+}
+
+.sub-title {
+   font-size: 12px;
+   font-weight: 700;
+   letter-spacing: 2.5px;
+   text-transform: uppercase;
+   color:#FFFFFF;
+   position: relative;
+   padding: 0 0 0 30px;
+}
+
+.sub-title::before{
+   content:"";
+   background: url('../img/icon.png') 0 0 /cover no-repeat;
+   position: absolute;
+   width:28px;
+   height: 28px;
+   top: -7px;
+   left: -7px;
+}
+
+.header-block__title {
+   margin: 0 0 36px 0;
+}
+
+.title {
+font-size: 36px;
+font-weight: 900;
+line-height: 1.16;
+color:#FFFFFF;
+
+
+
+}
+
+.who-we-are__text {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 1.5;
+   letter-spacing: 0.15px;
+   color:#FFFFFF;
+   max-width: 846px;
+   margin: 0 auto;
+}
+
+
+
+.who-we-are__decor{
+   position: absolute;
+   top: 55px;
+   right: 134px;
+
+}
+
+.who-we-are__blob{
+   display: inline-block;
+  position: relative;
+  z-index: 3;
+  bottom:90px;
+  left: 0px;
+  width: 550px;
+  height: 370px;
+  
+}
+
+
+
+
+.who-we-are__dog{
+   position: relative;
+   z-index: 3;
+   bottom: 320px;
+   left: 300px;
+   border-radius: 40px;
+   overflow: hidden;
+   width: 846px;
+   height: 420px;
+   background: url('../img/dog-2.png') 0 0 / 846px auto no-repeat;
+   box-shadow: 0px 16px 24px 0px #26262633;
+
+box-shadow: 0px 8px 16px 0px #2626263D;
+
+}
